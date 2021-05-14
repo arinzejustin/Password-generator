@@ -77,8 +77,6 @@ function copyText(){
     document.execCommand("copy");
     document.getElementById('alert').innerText = "Text has been copied to clipboard.";
 }
-document.querySelector('#generate').onclick(function(){ document.getElementById('alert').innerText = "";
-});
 function clear(){ document.getElementById('alert').innerText = "";
 }
 document.getElementById("generate").addEventListener('click', clear);
